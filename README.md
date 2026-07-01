@@ -1,18 +1,18 @@
 # Custom WebBrowser — Wikipedia Search Engine
 
-A simple Python command-line tool that searches Wikipedia and saves your search history to a local JSON file. Built as a learning project to explore working with web APIs in Python.
+A simple Python command-line tool that searches Wikipedia and saves your search history to a local JSON file. Built to explore working with web APIs in Python.
 
 ## Features
 
-- 🔍 Search Wikipedia directly from the terminal
-- 📄 Returns the top 5 matching article titles and URLs
-- 💾 Automatically saves every search (query, timestamp, and results) to `results.json`
-- 📈 Keeps a running history across multiple searches — nothing gets overwritten
-- 🆓 Completely free to use — no API key, no signup, no rate-limit worries for personal use
+- Search Wikipedia directly from the terminal
+-  Returns the top 5 matching article titles and URLs
+-  Automatically saves every search (query, timestamp, and results) to `results.json`
+-  Keeps a running history across multiple searches — nothing gets overwritten
+
 
 ## Tech Stack
 
-- Python 3.9+ (tested on 3.14.6)
+- python 3.14.6
 - [`requests`](https://pypi.org/project/requests/) — for calling the Wikipedia API
 - Wikipedia's free [MediaWiki Action API](https://www.mediawiki.org/wiki/API:Main_page)
 
